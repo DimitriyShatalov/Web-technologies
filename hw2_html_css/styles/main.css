@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(156, 219, 237);
+}
+
+h1 {
+    color: rgb(6, 70, 87);
+}
+
+h2 {
+    color: rgb(19, 111, 164);
+}
+
+
+
+a:link {
+    color: #497DDD; 
+    border-bottom: 1px dashed; 
+  }
+  a:visited {
+    color: #EF7D55;
+  }
+  a:hover {
+    color: #154088; 
+    border-bottom: .07em solid;
+  }
+  a:active {
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+  }
+
+
+ul {
+    list-style-type: circle;
+    font-size: 14px;
+}
+
+@font-face {
+	font-family: 'Exo 2 Extra Light Expanded';
+	src: url('../fonts/exo_2_extra_light_expanded.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/exo_2_extra_light_expanded.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/exo_2_extra_light_expanded.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/exo_2_extra_light_expanded.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/exo_2_extra_light_expanded.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/exo_2_extra_light_expanded.svg#exo_2_extra_light_expanded') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+ol {
+    font-family:'Exo 2 Extra Light Expanded', sans-serif;
+    font-size: 14px;
+}
+
